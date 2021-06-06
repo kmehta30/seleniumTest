@@ -14,7 +14,7 @@ public class TestCases {
 	@Test
 	public void firstTest() {
 
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "chromedriver");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 
